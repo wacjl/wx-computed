@@ -1,0 +1,11 @@
+<form bindsubmit="formSubmit">
+  表单
+ 
+  <text>{{firstName}}</text>
+    <text style="color:red">{{name}}</text>
+     <text >{{name2}}</text>
+<view>{{lastName}}</view>
+<view>{{fullName}}</view>
+  <button bindtap="change">改变值</button>
+  
+</form>
